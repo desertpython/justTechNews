@@ -1,5 +1,6 @@
 const path = require('path');
 const exphbs = require('express-handlebars');
+const routes = require('./controllers/');
 const hbs = exphbs.create({});
 
 app.engine('handlebars', hbs.engine);
