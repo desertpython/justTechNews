@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/desertpython/justTechNews#readme",
   "dependencies": {
+    "connect-session-sequelize": "^7.0.1",
     "express-handlebars": "^5.1.0",
+    "express-session": "^1.17.1",
     "sequelize": "^6.3.4"
   }
 }
